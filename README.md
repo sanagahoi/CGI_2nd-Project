@@ -3,10 +3,13 @@ Problem Statement Details:
 Demo Website Link: https://templatemo.com/live/templatemo_524_product_admin 
 
 
-
 Application Details: 
 
-- We have removed some elements from the demo website: Like Reports and Settings from the navbar and a few more so refer to the screenshots of the pages(links for the screenshots are given along with the page names below) while working on the website. - You can refer to the demo website link to see the mobile responsive design. - Pages in the website: 
+- We have removed some elements from the demo website: Like Reports and Settings from the navbar and a few more so refer to the screenshots of the pages(links for the screenshots are given along with the page names below) while working on the website.
+
+- You can refer to the demo website link to see the mobile responsive design.
+
+- Pages in the website: 
 
 1. Login Page ( https://i.imgur.com/22KiMYr.png ) 
 
@@ -52,7 +55,9 @@ API Call: https://reactmusicplayer-ab9e4.firebaseio.com/project-data.json
 
 5. Order List 
 
-- Use the charts.js or apex chart libraries to draw the graphs in sections: (1),(2),(3) - The reference links for these libraries and their tutorials are given at the bottom of this document.
+- Use the charts.js or apex chart libraries to draw the graphs in sections: (1),(2),(3)
+
+- The reference links for these libraries and their tutorials are given at the bottom of this document.
 
 
 
@@ -74,7 +79,8 @@ b) Product Categories Section on Right
 
 4. Add New Product Page: 
 
-- Add Validations for Name, Description, Category, Date, and Units fields. - Validations required for the Upload Image field: The file type can only be JPG, PNG, BMP, SVG, and WEBP. The file cannot be more than 1MB in size. 
+- Add Validations for Name, Description, Category, Date, and Units fields.
+- Validations required for the Upload Image field: The file type can only be JPG, PNG, BMP, SVG, and WEBP. The file cannot be more than 1MB in size. 
 
 - User should be redirected back to the Products Page and should see the newly added product in the Product List 
 
@@ -122,8 +128,12 @@ https://templatemo.com/live/templatemo_524_product_admin
 
 ❖ chart.js Documentation: https://www.chartjs.org/docs/latest/ 
 
-❖ react-chartjs-2 npm link: https://www.npmjs.com/package/react-chartjs-2 ❖ react-chartjs-2 tutorial: https://www.youtube.com/watch?v=eAsII_yr6tc 
+❖ react-chartjs-2 npm link: https://www.npmjs.com/package/react-chartjs-2 
 
-❖ apexchart Documentation: https://apexcharts.com/docs/react-charts/ ❖ apexchart npm link: https://www.npmjs.com/package/apexcharts
+❖ react-chartjs-2 tutorial: https://www.youtube.com/watch?v=eAsII_yr6tc 
+
+❖ apexchart Documentation: https://apexcharts.com/docs/react-charts/ 
+
+❖ apexchart npm link: https://www.npmjs.com/package/apexcharts
 
 ❖ apexchart tutorial: https://www.youtube.com/watch?v=JxEyXOlSgV0
