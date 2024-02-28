@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Live View Page - 524 product admin Template</title>
+    <link rel="icon" href="https://templatemo.com/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css1.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+</head>
+<style>
+    .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+    .tm-block{
+        padding: 40px;
+    }
+    .tm-mb-big{
+        margin-bottom: 60px;
+    }
+    .tm-mt-big{
+        margin-top: 57px;
+    }
+    .container{
+        width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+    *, ::after, ::before {
+    box-sizing: border-box;
+}
+div{
+    display: block;
+}
+body{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #4e657a;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6d8da6;
+}
+::-webkit-scrollbar-track {
+    background: #394f62;
+}
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+.mr-auto, .mx-auto {
+    margin-right: auto!important;
+}
+@media (min-width: 992px){
+.container {
+    max-width: 960px;
+}
+.col-lg-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+}
+.col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+}   
+
+@media (min-width: 768px){
+.col-md-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+} 
+
+}
+.tm-bg-primary-dark {
+    background-color: #435c70;
+}
+.tm-block-h-auto {
+    min-height: 1px;
+    max-height: none;
+    height: auto;
+}
+.col-12{
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.tm-block-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.d-inline-block {
+    display: inline-block!important;
+}
+
+.col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+.mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+}
+.form-group label {
+    color: #fff;
+    margin-bottom: 10px;
+    
+}
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    cursor: default;
+}
+
+.form-control {
+    padding: 19px 18px;
+    border-radius: 0;
+    height: 50px;
+    background-color: #54657d;
+    color: #fff;
+    border: 0;
+    display: block;
+    width: 90%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    /* background-color: #fff; */
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+textarea.form-control {
+    height: auto;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.custom-select {
+    height: 50px;
+    border-radius: 0;
+    width: 100%;
+    border: none;
+    color: #acc6de;
+    height: 50px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    padding: 15px;
+    background: url(../img/arrow-down.png) 98% no-repeat #50657b;
+    display: inline-block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+    line-height: 1.5;
+    color: #495057;
+    vertical-align: middle;
+    /* background: #fff ; */
+    background-size: 8px 10px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+button, select {
+    text-transform: none;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+select:not(:-internal-list-box) {
+    overflow: visible !important;
+}
+
+select {
+
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    box-sizing: border-box;
+    align-items: center;
+    -webkit-rtl-ordering: logical;
+    background-color: field;
+    cursor: default;
+    margin: 0em;
+    white-space: pre;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    border-radius: 0px
+}
+.custom-control-label::before, .custom-file-label, .custom-select {
+    transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: 90%;
+}
+option {
+    font-weight: normal;
+    display: block;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    white-space: nowrap;
+}
+.tm-product-img-dummy {
+    max-width: 100%;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #aaa;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].btn-block {
+    width: 100%;
+}
+/* [type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: button;
+} */
+.btn-primary {
+    color: #fff;
+    background-color: #f5a623;
+    border: 2px solid #f5a623;
+    font-size: 90%;
+    font-weight: 600;
+}
+.text-uppercase {
+    text-transform: uppercase!important;
+}
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+.mr-auto, .mx-auto {
+    margin-right: auto!important;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.btn {
+    border-radius: 0;
+    padding: 13px 28px;
+    max-width: 120%;
+    margin-left: 0%;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.fa-cloud-upload-alt:before {
+    content: "\f382";
+}
+.tm-upload-icon {
+    background: #455c71;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 22px;
+}
+.fa, .fas {
+    font-weight: 900;
+}
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+.fa, .fab, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+</style>
+
+<body>
+    <nav>
+        <header>
+            <h3>Product Admin</h3>
+            <div class="header">
+                <a href="dashboard.html" class="active"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                <a href="products.html"><i class="fas fa-shopping-cart"></i>Products</a>
+                <a href="accounts.html"><i class="far fa-user"></i>Accounts</a>
+            </div>
+            <div class="header admin">
+                <a href="login.html">
+                    <p>Admin, <b>Logout</b></p>
+                </a>
+            </div>
+        </header>
+    </nav>
+
+    <div class="container tm-mt-big tm-mb-big">
+        <div class="row">
+          <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 mx-auto">
+            <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+              <div class="row">
+                <div class="col-12">
+                  <h2 class="tm-block-title d-inline-block">Add Product</h2>
+                </div>
+              </div>
+              <div class="row tm-edit-product-row">
+                <div class="col-xl-6 col-lg-6 col-md-12">
+                  <form action="" class="tm-edit-product-form">
+                    <div class="form-group mb-3">
+                      <label for="name">Product Name</label>
+                      <input id="name" name="name" type="text" class="form-control validate" required="">
+                    </div>
+                    <div class="form-group mb-3">
+                      <label for="description">Description</label>
+                      <textarea class="form-control validate" rows="3" required=""></textarea>
+                    </div>
+                    <div class="form-group mb-3">
+                      <label for="category">Category</label>
+                      <select class="custom-select tm-select-accounts" id="category">
+                        <option selected="">Select category</option>
+                        <option value="1">New Arrival</option>
+                        <option value="2">Most Popular</option>
+                        <option value="3">Trending</option>
+                      </select>
+                    </div>
+                    <div class="row">
+                        <div class="form-group mb-3 col-xs-12 col-sm-6" style="margin-left: 1rem;">
+                            <label for="expire_date">Expire Date
+                            </label>
+                            <input style="width: 80%;" id="expire_date" name="expire_date" type="text" class="form-control validate hasDatepicker" data-large-mode="true">
+                          </div>
+                          <div class="form-group mb-3 col-xs-12 col-sm-6">
+                            <label for="stock">Units In Stock
+                            </label>
+                            <input style="width: 85%;" id="stock" name="stock" type="text" class="form-control validate" required="">
+                          </div>
+                    </div>
+                    
+                </form></div>
+                <div class="col-xl-6 col-lg-6 col-md-12 mx-auto mb-4">
+                  <div class="tm-product-img-dummy mx-auto">
+                    <i class="fas fa-cloud-upload-alt tm-upload-icon" onclick="document.getElementById('fileInput').click();"></i>
+                  </div>
+                  <div class="custom-file mt-3 mb-3">
+                    <input id="fileInput" type="file" style="display:none;">
+                    <input type="button" class="btn btn-primary btn-block mx-auto" style="margin-top: 20pxuser;" value="UPLOAD PRODUCT IMAGE" onclick="document.getElementById('fileInput').click();">
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary btn-block text-uppercase">Add Product Now</button>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <footer>
+        <center>Copyright © <b>2018</b> All rights reserved. Design: Template Mo</center>
+    </footer>
+
+</body>
+
+</html>
